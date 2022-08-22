@@ -1,4 +1,5 @@
 name: morning
+#在每天的北京时间的 9:00 AM 自动运行
 on:
   schedule:
   - cron:  '0 1 * * *'
