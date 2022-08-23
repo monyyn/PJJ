@@ -2,7 +2,7 @@ name: morning
 #在每天的北京时间的 9:00 AM 自动运行
 on:
   schedule:
-  - cron:  '*/15 * * * *'
+  - cron:  '0 1 * * *'
   workflow_dispatch:
 
 jobs:
